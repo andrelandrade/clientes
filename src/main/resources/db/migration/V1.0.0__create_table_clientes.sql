@@ -1,0 +1,20 @@
+CREATE TABLE clientes (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    dt_cadastro DATE,
+    nome VARCHAR(255) NOT NULL,
+    observacao VARCHAR(500),
+    categoria VARCHAR(20),
+    dt_nascimento DATE,
+    naturalidade VARCHAR(100),
+    estado_naturalidade VARCHAR(2),
+    nacionalidade VARCHAR(100),
+    estado_civil CHAR,
+    endereco VARCHAR(100),
+    bairro VARCHAR(100),
+    cidade VARCHAR(100),
+    estado VARCHAR(2),
+    telefone1 VARCHAR(13),
+    telefone2 VARCHAR(13),
+    mes_pago INT,
+    ano_pago INT
+);
